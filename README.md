@@ -10,7 +10,7 @@ b. the alpha matte (Black and White Contour).
 - It is also slightly faster than ViTMatte and produce results upto 2048 pixels without any upscaling using a CPU itself
 
 ### Demo Video:
-< Video Link >
+https://github.com/user-attachments/assets/0d57b137-3721-4e91-ab56-df076cc84f95
 
 ### Prerequisites:
 - Python 3.10.14 (Might work with lower/higher versions as well)

@@ -1,2 +1,3 @@
 __pycache__/
 checkpoints/DiffMatte_ViTS_Com_1024.pth
+resources/
