@@ -27,14 +27,17 @@ cd diffmatte_image_matting/
 ```
 2. Download the [ViTS_1024 (Best Diffmatte Model)](https://drive.google.com/file/d/1NIn-tKtW3zhi2vK3OgOTiiHrOIXuHIZo/view?usp=drive_link )
 and put it in checkpoints directory.
-3. Create a python virtual environment.
-a. Directly if python3.10 is installed
+3. Create a python virtual environment.  
+
 ```commandline
+# a. Directly if python3.10 is installed
 python3 -m venv env_diff
 source env_diff/bin/activate
 ```
-b. Or use miniconda to setup an enviroment with Python 3.10:
+Or,
+
 ```
+# b. Use miniconda to setup an enviroment with Python 3.10:
 conda create --name env_diff python=3.10
 conda activate env_diff
 ```
