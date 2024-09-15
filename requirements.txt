@@ -1,0 +1,13 @@
+torch
+torchvision
+tensorboard
+timm
+opencv-python
+setuptools
+easydict
+wget
+scikit-image
+fairscale
+einops
+ttkbootstrap
+pillow

@@ -1,0 +1,9 @@
+{
+    "INPUT_DIR": "./resources/input_dir",
+    "DESCALED_DIR": "./resources/descaled_dir",
+    "TRIMAP_DIR": "./resources/trimap_dir",
+    "ALPHA_MATTE_DIR": "./resources/alpha_matte_dir",
+    "OUTPUT_DIR": "./resources/output_dir",
+    "CONFIG_FILE_PATH": "./configs/ViTS_1024.py",
+    "CHECKPOINT_PATH": "./checkpoints/DiffMatte_ViTS_Com_1024.pth"
+}
