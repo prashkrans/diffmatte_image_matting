@@ -18,6 +18,7 @@ https://github.com/user-attachments/assets/0d57b137-3721-4e91-ab56-df076cc84f95
 - Tkinter (Only for linux): `sudo apt install python3-tk`
 - Tested with both NVIDIA CUDA and CPU. Works really well with CPU also. 
 - Critical Resolution kept as 2048. For resolutions above 2048, more VRAM i.e. > 16GBs is required.
+- Not sure about gcc and g++ errors, if encountered use `sudo apt install build-essential`
 
 ### Setup:
 1. Clone the repo and move to the root dir.
@@ -55,17 +56,11 @@ python -m pip install 'git+https://github.com/facebookresearch/detectron2.git'
 3. Paint trimaps sequentially for all the uploaded images.
 4. Wait for the processing to complete after which two results would be obtained: a. an image with background removed and b. the alpha matte (Black and White Contour). These would also be saved at `output_dir` and `alpha_matte_dir` respectively, which could be downloaded at <date-time>_output_dir and <date_time>_alpha_matte_dir.
 
-### Quick setup and usage for Windows: TODO (Not Implemented Yet)
-1. Install git from https://git-scm.com/download/win
-2. Install python 3.10 from MS Store (not python.org)
-3. Restart 
-4. Run `setup.bat` inside any directory say `C:\Workspace\image_matting\` (Only once). 
-5. Run `run.bat` and click on upload images to upload single or multiple image(s).
-6. Paint trimap for the image(s)
-7. Wait for procesing until prompted to download the final images without background along with their alpha matte images
-
+### Quick setup and usage for Windows: TODO 
 **Note:**
-- To run `setup.bat` or `run.bat`, double click -> More Info -> Run anyway
+- It has detectron 2 as a dependency which cannot be installed easily in Windows and needs a conda environment. 
+- It also cannot be deployed using docker as it uses opencv image preview and user input for which an additional step of `VcXsrv Windows X Server` is required. 
+- To be implented later.
 
 ### Trimap Keybinds:
 1. Q or 1 => Grey Mask (Unknown Region)
