@@ -74,7 +74,7 @@ python -m pip install 'git+https://github.com/facebookresearch/detectron2.git'
 
 ### Note:
 - Descale option is used to avoid `CUDA OOM`.
-- Dev Options: Feel free to play with `critical_pixel = 2048` in line 8 of `_2_descale_image.py` to have larger image resolution as output or use an upscaler.
+- Dev Options: Feel free to play with `critical_pixel = 2048` in line 8 of `_2_descale_image.py` to have larger image resolution as output if having > 16GBs of GPU VRAM or use an upscaler.
 - Currently, it doesn't support undo, so if the trimap gets messed up, you'd have to start over by pressing the `Esc` key.
 
 ### License:
