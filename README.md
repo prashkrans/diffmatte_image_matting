@@ -25,11 +25,11 @@ https://github.com/user-attachments/assets/0d57b137-3721-4e91-ab56-df076cc84f95
 git clone https://github.com/prashkrans/diffmatte_image_matting.git
 cd diffmatte_image_matting/
 ```
-2. Download the [ViTS_1024 (Best Diffmatte Model)](https://drive.google.com/file/d/1NIn-tKtW3zhi2vK3OgOTiiHrOIXuHIZo/view?usp=drive_link )
+2. Download the [ViTS_1024 (Best Diffmatte Model)](https://drive.google.com/file/d/1NIn-tKtW3zhi2vK3OgOTiiHrOIXuHIZo/view?usp=drive_link)
 and put it in checkpoints directory.
 3. Create a python virtual environment.  
 
-```commandline
+```
 # a. Directly if python3.10 is installed
 python3 -m venv env_diff
 source env_diff/bin/activate
